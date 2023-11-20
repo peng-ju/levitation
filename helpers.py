@@ -23,3 +23,5 @@ def I_dumbbell(radius, rho):
     I = 14/5 * np.pi * mass_sphere(radius, rho) * radius**2
 
     return I
+
+
