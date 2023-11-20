@@ -23,6 +23,9 @@ class Physics_Constant():
         # refractive index
         # self.silica = 
 
+        # others
+        self.eta_air = 1.84e-5  # viscosity coefficient of air [kg/(m*s)]
+
 if __name__ == "__main__":
     constant = Physics_Constant()
     pprint.pprint(constant.__dict__)
