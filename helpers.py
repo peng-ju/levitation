@@ -85,3 +85,17 @@ def cal_Gamma_COM_sphere(pressure: float, radius: float, rho: float) -> float:
     Gamma = (6 * np.pi * viscosity_air * radius / cal_mass_sphere(radius, rho)) * (0.619 / (0.619 + Kn)) * (1 + c_K)
 
     return Gamma
+
+
+def cal_Gamma_rot_sphere(pressure: float) -> float:
+    """
+    calculate rotational damping rate of a sphere due to residual gas in vacuum
+    based on experiment measured results: the damping rate is about 1 Hz at 1e-4 Torr
+
+    :param pressure: pressure of the vacuum
+    :return Gamma: calculated rotational damping of a sphere
+    """
+    Gamma = pressure/1e-4
+
+    return Gamma
+
