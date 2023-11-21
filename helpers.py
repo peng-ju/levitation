@@ -13,7 +13,7 @@ def cal_mass_sphere(radius: float, rho: float) -> float:
     :param rho: density of the meterail [kg/m^3]
     :return M: calculated mass of the sphere [kg]
     """
-    M = rho * 4/3 * np.pi * radius**2
+    M = rho * 4/3 * np.pi * radius**3
 
     return M
 
