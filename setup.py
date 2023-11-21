@@ -10,7 +10,7 @@ DESCRIPTION = "Levitation Simulation"
 VERSION = '1.0.4'
 
 sys.path.insert(0, os.path.dirname(__file__))
-from _version_ import hardcoded  # We cannot import the _version module, but we can import from it.
+from version import hardcoded  # We cannot import the _version module, but we can import from it.
 
 # read readme.md
 try:
