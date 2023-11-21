@@ -9,7 +9,7 @@ import os.path
 DESCRIPTION = "Levitation Simulation"
 VERSION = '1.0.4'
 
-# sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'levitation'))
+sys.path.insert(0, os.path.dirname(__file__))
 here = os.path.abspath(os.path.dirname(__file__))
 from _version_ import hardcoded  # We cannot import the _version module, but we can import from it.
 
