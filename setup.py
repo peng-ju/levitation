@@ -102,24 +102,24 @@ def hardcoded():
             f.write(contents)
 
 
-with hardcoded() as version:
-    setup(
-        name='levitation',
-        version=version,
-        description='Levitation Simulation',
-        long_description=long_description,
-        url="https://github.com/peng-ju/levitation",
-        author="Peng Ju",
-        author_email='ju26@purdue.edu',
-        license="Apache-2.0",
-        packages=find_packages('.'),
-        python_requires='>=3.6',
-        install_requires=[
-            'numpy',
-            'matplotlib',
-            'tqdm'
-            ],
-        tests_require=['pytest', 'pytest-cov'],
-        setup_requires=['pytest-runner'],
-        include_package_data=True,
-    )
+
+setup(
+    name='levitation',
+    version=git_version(),
+    description='Levitation Simulation',
+    long_description=long_description,
+    url="https://github.com/peng-ju/levitation",
+    author="Peng Ju",
+    author_email='ju26@purdue.edu',
+    license="Apache-2.0",
+    packages=find_packages('.'),
+    python_requires='>=3.6',
+    install_requires=[
+        'numpy',
+        'matplotlib',
+        'tqdm'
+        ],
+    tests_require=['pytest', 'pytest-cov'],
+    setup_requires=['pytest-runner'],
+    include_package_data=True,
+)
