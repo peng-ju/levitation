@@ -10,12 +10,11 @@ DESCRIPTION = "Levitation Simulation"
 VERSION = '1.0.4'
 
 sys.path.insert(0, os.path.dirname(__file__))
-here = os.path.abspath(os.path.dirname(__file__))
 from _version_ import hardcoded  # We cannot import the _version module, but we can import from it.
 
 # read readme.md
 try:
-    with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+    with io.open('README.md', encoding='utf-8') as f:
         long_description = '\n' + f.read()
 except FileNotFoundError:
     long_description = DESCRIPTION
