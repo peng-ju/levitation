@@ -1,4 +1,4 @@
-### This repository contains simulation code for the levitation experiment.
+### Simulation for the levitation experiment.
 - "Near-Field GHz Rotation and Sensing with an Optically Levitated Nanodumbbell" by Peng Ju, et. al. Nano Lett. 23(22) 10157–10163 (2023). [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.nanolett.3c02442#)
 
 [<img src="img/FreeFall.png"  width=600px height=300px />](img/FreeFall.png)
