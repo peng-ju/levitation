@@ -1,4 +1,13 @@
-### This repository contains useful codes for the levitation experiment.
+### This repository contains simulation code for the levitation experiment.
+- "Near-Field GHz Rotation and Sensing with an Optically Levitated Nanodumbbell" by Peng Ju, et. al. Nano Lett. 23(22) 10157–10163 (2023). [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.nanolett.3c02442#)
+
+[<img src="img/FreeFall.png"  width=600px height=300px />](img/FreeFall.png)
+
+---
+## Directory
+- `physics_constant.py` contains all physics constant used in the simulations.
+- `helpers.py` contains helper functions for the simulations.
+- `Free_fall.ipynb` simulates how a nanoparticle rotates in the free fall experiment.
 
 ---
 ## Instructions
@@ -11,7 +20,3 @@
 6. Activate your virtual environment with `source venv/bin/activate`,
 7. Run Python script within your virtual environment.
 
----
-- `physics_constant.py` contains all physics constant used in the simulations.
-- `helpers.py` contains helper functions for the simulations.
-- `Free_fall.ipynb` simulates how a nanoparticle rotates in the free fall experiment.

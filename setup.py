@@ -108,6 +108,7 @@ setup(
     version="v1.0.11",
     description='Levitation Simulation',
     long_description=long_description,
+    long_description_content_type="text/x-rst",
     url="https://github.com/peng-ju/levitation",
     author="Peng Ju",
     author_email='ju26@purdue.edu',
